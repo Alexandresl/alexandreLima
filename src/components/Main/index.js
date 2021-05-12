@@ -5,11 +5,7 @@ import Navbar from '../NavBar';
 import * as S from './styled';
 
 const Main = () => {
-
   return (
-    <>
-      <Navbar />
-      <Banner />
       <S.Main>
         <S.ContentMain>
           <h1>Lorem ipsum dolor sit amet.</h1>
@@ -79,7 +75,6 @@ const Main = () => {
         quidem! Mollitia dignissimos ex eveniet ad exercitationem quos atque.'</p>
         </S.ContentMain>
       </S.Main>
-    </>
   )
 }
 

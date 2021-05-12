@@ -76,6 +76,31 @@ export const MenuList = styled.ul`
     }
 
   }
+
+  @media (max-width: 868px) {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    background: rgb(35, 53, 65);
+    background: linear-gradient(180deg, rgba(35, 53, 65, 1) 0%, rgba(54, 75, 88, 1) 100%);
+    width: 100%;
+    max-width: 25rem;
+    display: block;
+    padding: 2.5rem 0;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-right: 1px solid #233541;
+    box-shadow: 1px 1px 2px #233541;
+
+    li {
+      margin-top: 2.8rem;
+
+      a {
+        font-size: 1.4rem;
+      }
+    }
+  }
 `
 
 export const icon = styled.div``
